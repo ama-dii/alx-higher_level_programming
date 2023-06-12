@@ -1,5 +1,21 @@
-defif
+#ifndef LISTS_H
+#define LISTS_H
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+
+/**
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ * Description: singly linked list node structure
+ */
+typedef struct listint_s
+{
+	int n;
+	struct listint_s *next;
+} listint_t;
 
 def print_list_integer(my_list=[]);
 def element_at(my_list, idx);
@@ -14,4 +30,4 @@ def max_integer(my_list=[]);
 def divisible_by_2(my_list=[]);
 def delete_at(my_list=[], idx=0);
 int is_palindrome(listint_t **head);
-endif
+#endif
