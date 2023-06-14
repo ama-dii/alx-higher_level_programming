@@ -6,14 +6,14 @@ def common_elements(set_1, set_2):
 
     Parameters
     ----------
-    set1 : set
+    set_1 : set
         first set of elements
-    set2 : set
+    set_2 : set
         second set of elements
 
     Return:
         the result of the operation (&)
     """
 
-    return (set1 & set2)
+    return (set_1 & set_2)
 
