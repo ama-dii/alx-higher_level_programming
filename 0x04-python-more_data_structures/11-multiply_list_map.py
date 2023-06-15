@@ -14,5 +14,5 @@ def multiply_list_map(my_list=[], number=0):
 	Each value should be multiplied by number
 	"""
 
-    return list(map(lambda x: x*number, my_list))
+    return (list(map(lambda x: x * number, my_list)))
 
