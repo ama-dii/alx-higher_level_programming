@@ -13,5 +13,11 @@ def multiply_by_2(a_dictionary):
         a new dictionary
     """
 
-    return ({c: a_dictionary[k] * 2 for c in a_dictionary})
+     new_dir = a_dictionary.copy()
+    list_keys = list(new_dir.keys())
+
+    for i in list_keys:
+        new_dir[i] *= 2
+
+    return (new_dir)
 
