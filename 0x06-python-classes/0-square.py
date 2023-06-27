@@ -2,7 +2,5 @@
 """
 ... empty class
 """
-def my_square(Square()):
-	try:
-	Square() = 0
-		print(Square())
+class Square:
+	pass
