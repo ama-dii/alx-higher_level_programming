@@ -1,3 +1,3 @@
 #!/bin/bash
-cd path/to/python/PYFILE
-python3 $PYFILE.py
+cd path/to/python/$PYFILE
+python3 $PYFILE
